@@ -24,7 +24,7 @@ public class HomeController {
 
 //    @GetMapping("/")
     public String home() {
-        //return "redirect:/items";   //실행하면 바로 items로 리다이렉트
+        //return "redirect:/items";   //실행하면 items로 리다이렉트
         return "home";
     }
 
